@@ -1,0 +1,15 @@
+﻿  SDL2_APP.cpp
+  Source.cpp
+  Generating Code...
+SDL2_APP.obj : error LNK2019: unresolved external symbol _SDL_SetWindowTitle referenced in function "public: bool __thiscall SDL2_APP::OnInit(void)" (?OnInit@SDL2_APP@@QAE_NXZ)
+SDL2_APP.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "public: int __thiscall SDL2_APP::OnExecute(void)" (?OnExecute@SDL2_APP@@QAEHXZ)
+SDL2_APP.obj : error LNK2019: unresolved external symbol _SDL_SetHint referenced in function "public: bool __thiscall SDL2_APP::OnInit(void)" (?OnInit@SDL2_APP@@QAE_NXZ)
+SDL2_APP.obj : error LNK2019: unresolved external symbol _SDL_CreateWindowAndRenderer referenced in function "public: bool __thiscall SDL2_APP::OnInit(void)" (?OnInit@SDL2_APP@@QAE_NXZ)
+SDL2_APP.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "public: bool __thiscall SDL2_APP::OnInit(void)" (?OnInit@SDL2_APP@@QAE_NXZ)
+SDL2_APP.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "public: void __thiscall SDL2_APP::OnCleanup(void)" (?OnCleanup@SDL2_APP@@QAEXXZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\sdl\SDL2-devel-2.26.5-VC (3)\SDL2-2.26.5\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\sdl\SDL2-devel-2.26.5-VC (3)\SDL2-2.26.5\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\sdl\SDL2-devel-2.26.5-VC (3)\SDL2-2.26.5\lib\x64\SDL2_image.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\sdl\SDL2-devel-2.26.5-VC (3)\SDL2-2.26.5\lib\x64\SDL2test.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\ta_tbI_wo\source\repos\Project15\Debug\Project15.exe : fatal error LNK1120: 7 unresolved externals
